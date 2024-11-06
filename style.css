@@ -25,6 +25,17 @@ body {
   margin: 0;
 }
 
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.tag,
+.date {
+  display: block;
+}
+
 .card {
   max-width: 384px;
   position: absolute;
@@ -38,4 +49,23 @@ body {
   img {
     border-radius: 10px;
   }
+}
+
+.tag {
+  padding: var(--s-50) var(--s-150);
+  max-width: fit-content;
+  background-color: var(--yellow);
+  border-radius: var(--s-50);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-150);
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: var(--s-50);
 }
