@@ -1,0 +1,13 @@
+:root {
+  --yellow: hsl(46.8 88.7% 63.2%);
+  --gray-950: hsl(0 0% 6.67%);
+  --gray-500: hsl(0 0% 42%);
+  --white: hsl(0 0% 100%);
+  --s-50: 4px;
+  --s-100: 8px;
+  --s-150: 12px;
+  --s-300: 24px;
+  --text-preset-1: 24px;
+  --text-preset-2: 16px;
+  --text-preset-3: 14px;
+}
